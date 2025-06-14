@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# 🕹️ Escape the Tab — A Web Puzzle Adventure
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Escape the Tab** is an interactive multi-level web puzzle game built using **React**, **JavaScript**, **HTML**, and **CSS**.  
+Designed to challenge attention, memory, logic, and creativity — it traps the user in a simulated browser tab and makes them "escape" by clearing 5 unique and increasingly difficult levels.
 
-## Available Scripts
+> ✅ No signups. Just play, solve, and escape.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎮 Gameplay Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Level | Challenge                      | Skills Tested         |
+|-------|-------------------------------|------------------------|
+| 1     | Hidden buttons in the DOM     | Observation, Curiosity |
+| 2     | Click order memory game       | Attention, Focus       |
+| 3     | Code-breaking (visual logic)  | Pattern recognition    |
+| 4     | CSS maze navigation           | Spatial logic          |
+| 5     | Pattern memory grid (4x4)     | Memory, Precision      |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Each level is fully interactive with custom visuals, animations, and sound effects.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Features
 
-### `npm run build`
+- 🎨 Responsive UI with level transitions
+- 🎵 Custom sound effects (correct, wrong, alert)
+- ⏱️ Timers and limited attempts for added tension
+- ⚙️ Fully built in **React**
+- 📦 Easy to deploy on Vercel or Netlify
+- 💻 Works on desktop and mobile browsers
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React](https://reactjs.org/)
+- JavaScript (ES6)
+- HTML5 & CSS3
+- [use-sound](https://www.npmjs.com/package/use-sound) for audio hooks
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📦 How to Run Locally
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Clone the repository
+git clone https://github.com/your-username/escape-the-tab.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+cd escape-the-tab
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Install dependencies
+npm install
 
-## Learn More
+# Start the development server
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📁 Folder Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+escape-the-tab/
+├── public/
+│   └── sounds/
+│       ├── correct.wav
+│       ├── wrong.wav
+│       └── blip.wav
+├── src/
+│   ├── components/
+│   │   ├── Level1.js
+│   │   ├── Level2.js
+│   │   └── ...
+│   └── App.js
+├── package.json
+└── README.md
 
-### Code Splitting
+📬 Contact
+If you liked this project or want to collaborate:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Anuj Saxena
+📧 saxenaanuj512@gmail.com
+🌐 linkedin.com/in/anuj-saxena-aa7b80232
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
